@@ -21,7 +21,7 @@ router.post("/", async (req, res) => {
       })
       .catch((err) => {
         res.status(400).send({
-          staus: false,
+          status: false,
           message: "Bad format",
         });
       });
