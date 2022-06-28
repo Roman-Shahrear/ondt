@@ -20,10 +20,12 @@ router.post("/", async (req, res) => {
         });
       })
       .catch((err) => {
-        res.status(400).send({
-          status: false,
-          message: "Bad format",
-        });
+        console.log("err ",err)
+        res.send(err)
+        // res.status(400).send({
+        //   status: false,
+        //   message: "Bad format",
+        // });
       });
   } catch (e) {
     res.status(500).send({
@@ -61,6 +63,7 @@ router.get("/", async (req, res) => {
       status: false,
       message: "Unexpected error",
     });
+    //console.log(e);
   }
 });
 
