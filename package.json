@@ -1,14 +1,22 @@
 {
   "name": "on-demand-tuitor-client",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "��#\u0000 \u0000o\u0000n\u0000d\u0000t\u0000\r\u0000 \u0000",
+=======
+  "description": "",
+>>>>>>> 0e892d3f4bb8bc9573ef092acdb573c056c00449
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix frontend",
     "server": "nodemon backend/server",
+<<<<<<< HEAD
     "start": "nodemon --watch backend --exec node backend/server.js",
     "proxy": "localhost:80"
+=======
+    "start": "nodemon --watch backend --exec node backend/server.js"
+>>>>>>> 0e892d3f4bb8bc9573ef092acdb573c056c00449
   },
   "repository": {
     "type": "git",
@@ -26,9 +34,14 @@
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+<<<<<<< HEAD
     "grep": "^0.1.0",
     "mongoose": "^6.4.1",
     "nodemon": "^2.0.18",
     "serve": "^13.0.2"
+=======
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+>>>>>>> 0e892d3f4bb8bc9573ef092acdb573c056c00449
   }
 }
